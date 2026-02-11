@@ -82,15 +82,15 @@ docker compose -f docker-compose.kafka.yml up -d
 
 ## Payment Flow (High Level)
 -User Creates Payment
-- ↓
+↓
 - Payment Gateway Simulation
-- ↓
+↓
 - Webhook Receives Status
-- ↓
+↓
 - Kafka Event Published
-- ↓
+↓
 - Ledger Entry Created
-- ↓
+↓
 - Settlement Record Created
 
 ## 🧪 Testing Webhook Example
@@ -119,5 +119,5 @@ Supports migration to microservices (ledger, settlement, payment split ready).
 
 ## 👨‍💻 Author
 - HN Sanjay
-Built as a real-world backend architecture learning project.
+- Built as a real-world backend architecture learning project.
 
