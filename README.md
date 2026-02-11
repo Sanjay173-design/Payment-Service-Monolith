@@ -95,11 +95,11 @@ docker compose -f docker-compose.kafka.yml up -d
 
 ## 🧪 Testing Webhook Example
 {
-  "paymentRef": "PAY_123456",
-  "status": "SUCCESS",
-  "gatewayData": {
-    "amount": 3000
-  }
+  - "paymentRef": "PAY_123456",
+  - "status": "SUCCESS",
+  - "gatewayData": {
+  - "amount": 3000
+  - }
 }
 
 ## 🧱 Architecture Type
