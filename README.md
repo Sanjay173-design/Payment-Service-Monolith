@@ -100,7 +100,7 @@ docker compose -f docker-compose.kafka.yml up -d
   - "gatewayData": {
   - "amount": 3000
   - }
-}
+};
 
 ## 🧱 Architecture Type
 
