@@ -81,7 +81,7 @@ Start Kafka + Zookeeper:
 docker compose -f docker-compose.kafka.yml up -d
 
 ## Payment Flow (High Level)
--User Creates Payment
+- User Creates Payment
 ↓
 - Payment Gateway Simulation
 ↓
